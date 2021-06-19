@@ -1,0 +1,36 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-style: inherit;
+        /* font-weight: bolder; */
+        background-color: white;
+    }
+    
+    .heading {
+        margin: 20px;
+        /* margin-top: 10px; */
+        text-align: center;
+    }
+    
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flex fieldset {
+        margin: 20px;
+        padding: 30px;
+        border: 1px solid white;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 0 10px #777777;
+    }
+    
+    .flex input {
+        margin: 5px;
+    }
+    
+    .button {
+        text-align: center;
+        margin: 20px;
+    }
